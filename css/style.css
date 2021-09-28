@@ -58,7 +58,7 @@ font-family: Roboto,'playfair display', serif;
 
 header {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     flex-direction:row;
     justify-content: center;
@@ -206,6 +206,13 @@ letter-spacing: 0px;
   border-radius: 20px;
 }
 
+.input-container2 .text-input{
+  padding:12px 10px;
+  margin:20px 10px;
+  border: 0.5px solid grey;
+  border-radius: 0px;
+}
+
 .input-container .form-btn {
     background-color: black;
     color: white;
@@ -229,7 +236,6 @@ letter-spacing: 0px;
 }
 
 .bio .bio-text-column {
-/* padding: 100px 10px 20px; */
 width: 100%;
 display:flex;
 flex-direction:column;
@@ -238,16 +244,14 @@ flex-direction:column;
 .bio .bio-text {
 font-size: 1rem;
 padding: 100px 10px 20px;
-width: 100%;
+width: 80%;
 margin: 20px;
 }
 
 .bio .bio-text-column .signature {
     background-image:url("../images/signature.png");
-/* width:80%;  */
- height: 20vh;
+ height: 26%;
     display: flex;
-    /* flex-grow: 1; */
     overflow: hidden;
     background-image: no-repeat;
     background-size: cover;
@@ -281,7 +285,7 @@ margin: 20px;
 }
 
 .collection .img-container {
-height: 50vh;
+height: 60vh;
 display:flex;
 flex-grow:1;
 overflow: hidden;
@@ -325,7 +329,7 @@ background-position: center;
 
 .trainers .img-container {
 height: 50vh;
-width: 30%;
+width: 50%;
 display:flex;
 flex-grow:1;
 overflow: hidden;
@@ -355,7 +359,7 @@ background-position: center;
     line-height: 1.6;
 }
 
-.trainers .para {
+.para {
 box-sizing:border-box;
 color:rgb(17, 17, 17);
 display:block;
@@ -375,4 +379,101 @@ text-decoration-style:solid;
 text-decoration-thickness:auto;
 text-size-adjust:100%;
 width:40%;
+}
+
+.trainers-text button {
+    margin-top: 70px;
+    width: 50%;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subscribe .img-container {
+height: 100%;
+width: 50%;
+display:flex;
+flex-grow:1;
+overflow: hidden;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+
+.subscribe hr {
+    background-color: #d9b1b3;
+    border-style: solid;
+    border-color: #d9b1b3;
+    border-bottom-color:rgb(217, 177, 179);
+    display:flex;
+    align: center;
+    justify-content: center center;
+    margin-top: 50px;
+    border-width: 5px;
+}
+
+.subscribe .gallery-img-14 {
+    background-image:url("../images/gallery-14.png");
+    height:100%;
+}
+
+.subscribe button {
+    /* margin-top: 70px; */
+    width: 20%;
+}
+
+.subscribe .subscribe-text {
+    display:flex;
+    margin: 20px;
+    justify-content: center;
+
+}
+
+.subscribe h2 {
+    font-style:italic;
+    text-align:center;
+}
+
+
+.subscribe .subscribe-text p {
+    display:flex;
+    justify-content: center;
+text-align: center;
+  /* flex-direction: row; */
+margin: 20px 30%;
+align:center;
+}
+
+.subscribe .fb {
+    background-image:url("../images/fb.png");
+    margin:5px; 
+     width:100%;
+    height:100%;
+}
+
+.subscribe .tw {
+    background-image:url("../images/tw.png");
+    margin:5px;
+     width:100%;
+    height:100%;
+}
+
+.subscribe .ig {
+    background-image:url("../images/ig.png");
+    margin:5px;
+    width:100%;
+    height:100%; 
+}
+
+.social {
+    height: 40px; 
+    width:120px; 
+    margin-top: 50px; 
+    margin-left: 40%;
+    display:flex; 
+    justify-content: center;
 }
